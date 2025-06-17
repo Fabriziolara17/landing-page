@@ -1,0 +1,236 @@
+* {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: white;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 15px 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-text {
+            color: #3D44DD;
+            font-family: 'Zilla Slab', serif;
+            font-size: 25px;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: #333;
+            font-weight: 400;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #3D44DD;
+        }
+
+        .login-btn {
+            color: #3D44DD;
+            font-weight: bold;
+        }
+
+        .register-btn {
+            background-color: #3D44DD;
+            color: white !important;
+            padding: 10px 35px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .register-btn:hover {
+            background-color: #2A33B8;
+        }
+
+        .accesibility-button {
+            background-color: transparent;
+            border: 1px solid #3D44DD;
+            color: #3D44DD;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 80px 50px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .home-banner {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            min-height: 500px;
+        }
+
+        .col1 {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .col1 h1 {
+            font-family: 'Zilla Slab', serif;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 1.2;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .col1 h1 span {
+            color: #3D44DD;
+        }
+
+        .description-h1 {
+            color: #405057;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+
+        .call-to-action {
+            background-color: #3D44DD;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .call-to-action:hover {
+            background-color: #2A33B8;
+        }
+
+        .caregiver-link {
+            color: #3D44DD;
+            font-weight: 500;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .caregiver-link::after {
+            content: '→';
+            font-size: 18px;
+        }
+
+        .col2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home-banner-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* Responsivo */
+        @media (max-width: 1024px) {
+            header {
+                padding: 15px 30px;
+            }
+
+            nav ul {
+                gap: 20px;
+            }
+
+            nav ul li a {
+                font-size: 13px;
+            }
+
+            main {
+                padding: 60px 30px;
+            }
+
+            .home-banner {
+                gap: 60px;
+            }
+
+            .col1 h1 {
+                font-size: 42px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            main {
+                padding: 40px 20px;
+            }
+
+            .home-banner {
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .col1 {
+                max-width: 100%;
+            }
+
+            .col1 h1 {
+                font-size: 36px;
+            }
+
+            .description-h1 {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .col1 h1 {
+                font-size: 28px;
+            }
+
+            .description-h1 {
+                font-size: 14px;
+            }
+
+            .call-to-action {
+                width: 100%;
+            }
+        }
