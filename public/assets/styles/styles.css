@@ -86,12 +86,12 @@
             min-height: 500px;
         }
 
-        .col1 {
+        .hb-col1 {
             flex: 1;
             max-width: 600px;
         }
 
-        .col1 h1 {
+        .hb-col1 h1 {
             font-family: 'Zilla Slab', serif;
             font-size: 48px;
             font-weight: 600;
@@ -100,7 +100,7 @@
             margin-bottom: 30px;
         }
 
-        .col1 h1 span {
+        .hb-col1 h1 span {
             color: #3D44DD;
         }
 
@@ -144,7 +144,7 @@
             font-size: 18px;
         }
 
-        .col2 {
+        .hb-col2 {
             flex: 1;
             display: flex;
             justify-content: center;
@@ -208,11 +208,11 @@
                 text-align: center;
             }
 
-            .col1 {
+            .hb-col1 {
                 max-width: 100%;
             }
 
-            .col1 h1 {
+            .hb-col1 h1 {
                 font-size: 36px;
             }
 
@@ -222,7 +222,7 @@
         }
 
         @media (max-width: 480px) {
-            .col1 h1 {
+            .hb-col1 h1 {
                 font-size: 28px;
             }
 
