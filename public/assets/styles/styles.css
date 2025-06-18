@@ -655,16 +655,19 @@ main {
     }
 }
 
-/* Ajuste para pantallas más pequeñas */
 @media (max-width: 768px) {
     .main-menu {
-        max-height: 70vh;  /* Ajusta el max-height a un 70% de la altura de la ventana */
+        width: 50%; 
+        max-width: none;
+        height: 60%;
     }
 }
 
 /* Ajuste para pantallas muy pequeñas */
 @media (max-width: 480px) {
     .main-menu {
-        max-height: 60vh;  /* Ajusta el max-height a un 80% de la altura de la ventana */
+        width: 60%;  
+        max-width: none;
+        max-height: 75vh;  
     }
 }
