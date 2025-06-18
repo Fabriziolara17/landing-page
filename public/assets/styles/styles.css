@@ -710,7 +710,6 @@
             }
         }
 
-        /* Aqui estamos implementando el menu hamburguesa :) */
         @media screen and (max-width: 767px) {
             .open-menu, .close-menu {
                 display: block;
