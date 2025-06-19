@@ -27,3 +27,5 @@ scrollToSection('nosotros', 'application-section');
 scrollToSection('testimonios', 'testimonials-section');
 scrollToSection('footer-logo-careme', 'home-banner');
 scrollToSection('formulario-contacto-footer', 'contact-section');
+scrollToSection('conoce-nuestra-marca-footer', 'application-section');
+scrollToSection('sobre-nosotros-footer', 'application-section');
